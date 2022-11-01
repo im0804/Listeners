@@ -37,8 +37,8 @@ public class resultActivity extends AppCompatActivity {
     public void Back(View view) {
         upbutton = 0;
         downbutton = 0;
-        gi.putExtra("upbutton",0);
-        gi.putExtra("downbutton",0);
+        gi.putExtra("upbutton",upbutton);
+        gi.putExtra("downbutton",downbutton);
         setResult(RESULT_OK, gi);
         finish();
     }

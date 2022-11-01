@@ -32,13 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
         btnDown.setOnLongClickListener(this);
     }
 
-    /*@Override
-    protected void onRestart() {
-        super.onRestart();
-        count = 0;
-        count2 = 0;
-    }*/
-
     @Override
     public boolean onLongClick(View view) {
         count2 += 2;
